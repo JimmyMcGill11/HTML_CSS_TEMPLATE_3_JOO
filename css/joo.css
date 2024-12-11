@@ -809,7 +809,7 @@ a {
   -o-transition: var(--main-transition);
 }
 
-.features .box .img-holder:hover::after {
+.features .box:hover .img-holder::after {
   border-width: 170px 500px 170px 500px;
 }
 
@@ -917,7 +917,7 @@ a {
 }
 /* End Coloring of Passion Box */
 
-.features .box:hover a {
+.features .box a:hover {
   background-position: left center;
   color: #FFF;
 }
